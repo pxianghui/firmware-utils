@@ -187,7 +187,7 @@ static struct flash_layout layouts[] = {
 		.rootfs_ofs     = 0x140000,
 	}, {
                 .id         = "32Mlzma",
-                .fw_max_len = 0x1fe0000,   /* 固件最大长度 ≈ 31MB */
+                .fw_max_len = 0x1fc0000,   /* 固件最大长度 ≈ 31MB */
                 .kernel_la  = 0x80000000,  /* AR9331 */
                 .kernel_ep  = 0x80000000,
                 .rootfs_ofs = 0x140000,    /* rootfs 偏移，和 16M 保持一致 */
